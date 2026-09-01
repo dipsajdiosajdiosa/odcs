@@ -426,3 +426,39 @@ h1 span {
         font-size: 10px;
     }
 }
+
+/* ── About Page Specific Styles ── */
+.about-hero {
+    /* Slight adjustment if needed */
+    /* min-height: calc(100vh - 90px); already set */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    letter-spacing: -0.04em;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--muted);
+}
+
+.contact-email {
+    color: var(--text);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-email:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+}
